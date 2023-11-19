@@ -1,6 +1,5 @@
 # CP3402-LJ
-<header>week 1 Learning Journal</header>
-<p>
+# week 1 Learning Journal
 This is the frist learning jrournal for CP3402. 19/11/2023 20:07
 
 The whole practical1 practice left us very little time. First we need to think about what our business is about. In the beginning, I think choosing a good business direction is a very important step. First I need to understand the demand and competition of the target market. Determine where your product or service is positioned in the market. Second, define your target customer group and understand their needs and preferences. This helps you better position and market your product or service. In my opinion, a good entrepreneurial project is one that can survive for a long time and gradually make profits. Combined with the development of today's society, people are more and more satisfied with the material needs, and began to pursue spiritual needs. More began to pay attention to their own health, especially dental problems. Therefore, I want to set up a dental clinic, which focuses on orthodontic treatment, focusing on the more technically difficult invisible correction.
@@ -18,5 +17,10 @@ Watching YouTube video to learn how to build a table in the html
 
 <li>https://youtu.be/-0SCf8XEGes?si=1cQGXpFzORPMbgr6</li>
 <li>https://youtu.be/1zaZAm_P1kI?si=jTDLGct5eh2uFYWP</li>
-</p>
+
+Watching YouTube video to learn how to make a carousel map
+<li>https://youtu.be/rD2Tnc-W31A?si=YdDf7GBVyGmXo6Fi</li>
+<li>https://youtu.be/4K9eI6FhyI4?si=KhhkK1c0f0oIeFWa</li>
+<li>https://youtu.be/j18CH0Grhbw?si=JxA2Ob1MYUD1IPia</li>
+<li>https://youtu.be/0wvrlOyGlq0?si=lZSu0mwnXuxZ_BPL</li>
 
