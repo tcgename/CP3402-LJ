@@ -14,4 +14,6 @@ The entire self-learning and working time is about 14h.
 Here are some of my learning resources:
 
 Watching YouTube video to learn how to build a table in the html
-·https://youtu.be/-0SCf8XEGes?si=1cQGXpFzORPMbgr6
+
+<li>https://youtu.be/-0SCf8XEGes?si=1cQGXpFzORPMbgr6</li>
+<li>https://youtu.be/1zaZAm_P1kI?si=jTDLGct5eh2uFYWP</li>
