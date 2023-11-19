@@ -9,3 +9,9 @@ After determining the direction of entrepreneurship, I began to make a startup w
 At the same time, although some aspects are done well, the overall is too rough. Because there is not much time left, some beautification standards are abandoned in the control of the overall project, resulting in some pages looking very simple. But the whole page is finished. In the future business, the web page will be constantly upgraded and improved, so as to give users a better browsing experience.
 
 The next step is to publish the website. Publishing a website usually involves choosing the right hosting service or platform, rather than directly using an application that publishes a website. They provide convenient tools and interfaces that allow me to easily create and publish websites. So I compared three common publishing platforms: SiteGround, GitHub Pages, and Netlify. GitHub Pages is suitable for open source projects, especially static Git-based websites that offer free hosting and Git integration. SiteGround is a traditional hosted service for all kinds of websites, including dynamic content, with cPanel control panel and professional customer support. Netlify is suitable for websites built with modern JavaScript frameworks, offering automated deployment, global CDN, and serverless capabilities in a free package for small and medium-sized projects. The choice depends on your project needs, if it is an open source project, GitHub Pages is a good choice; If you need more flexible hosting options, SiteGround is suitable for a variety of projects; For modern JavaScript frameworks, Netlify offers powerful features and Git integration.
+
+The entire self-learning and working time is about 14h.
+Here are some of my learning resources:
+
+Watching YouTube video to learn how to build a table in the html
+·https://youtu.be/-0SCf8XEGes?si=1cQGXpFzORPMbgr6
