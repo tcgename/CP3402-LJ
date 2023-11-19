@@ -1,5 +1,5 @@
 # CP3402-LJ
-<h>Week 1 Learning Journal</h>
+<header>week 1 Learning Journal</header>
 <p>
 This is the frist learning jrournal for CP3402. 19/11/2023 20:07
 
