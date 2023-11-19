@@ -18,8 +18,8 @@ Watching YouTube video to learn how to build a table in the html
 <li>https://youtu.be/-0SCf8XEGes?si=1cQGXpFzORPMbgr6</li>
 <li>https://youtu.be/1zaZAm_P1kI?si=jTDLGct5eh2uFYWP</li>
 
-
 Watching YouTube video to learn how to make a carousel map
+
 <li>https://youtu.be/rD2Tnc-W31A?si=YdDf7GBVyGmXo6Fi</li>
 <li>https://youtu.be/4K9eI6FhyI4?si=KhhkK1c0f0oIeFWa</li>
 <li>https://youtu.be/j18CH0Grhbw?si=JxA2Ob1MYUD1IPia</li>
