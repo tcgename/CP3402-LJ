@@ -1,250 +1,169 @@
-/* 去掉所有标签的默认内外边距 */
+
 *{
-	/* 外边距为0 */
 	margin: 0;
-	/* 内边距为0 */
 	padding: 0;
 }
-/* 去除列表的默认样式 */
+
 li{
 	list-style: none;
 }
-/* 去掉超链接a标签的默认下划线 */
+
 a{
 	text-decoration: none;
 }
-/* 导航栏 */
 
 .header{
-	/* 长度设置为100% */
 	width: 100%;
-	/* 设置高度 */
 	height: 60px;
-	/* 设置行高 */
 	line-height: 60px;
-	/* 设置背景 */
 	background: #5c98dd;
-	/* 设置阴影 */
 	box-shadow: 2px 3px 5px #ccc;
 }
-/* 导航栏 */
+
 .headerf{
-	/* 设置长度 */
 	width: 1200px;
-	/* 设置居中 */
 	margin: auto;
 	
 }
-/* logo图片 */
+
 .headerf img{
-	/* 左浮动 靠左对齐 */
 	float: left;
-	/* 设置高度 */
 	height: 35px;
-	/* 设置5px的上侧外边距 */
 	margin-top: 12px;
 }
-/* 导航条 */
+
 .headerf ul{
-	/* 右浮动 靠右对齐 */
 	float: right;
 	
 }
 .headerf ul li{
-	/* 左浮动 靠左对齐 */
 	float: left;
-	/* 设置100px的左侧外边距 */
 	margin-left: 100px;
 	font-size: 35px;
 }
 .headerf ul li a{
-	/* 设置颜色 */
 	color: #000000;
-	/* 设置5px下侧的内边距 */
 	padding-bottom: 5px;
 }
-/* 设置class为.active 标签下的a 的样式 */
+
 .headerf ul .active a{
-	/* 设置颜色 */
 	color: #fffdfd;
-	/* 设置下边框为3px 颜色为#FAC32C 的实线 */
 	border-bottom: 3px solid #ffffff;
 }
-/* 鼠标移入效果 */
+
 .headerf ul li a:hover{
-	/* 设置颜色 */
 	color: #ffffff;
-	/* 设置下边框为3px 颜色为#FAC32C 的实线 */
 	border-bottom: 3px solid #ffffff;
 }
 /* 轮播图 */
 .swiper {
-	/* 相对定位 */
 	position: relative;
-	/* 设置长度 */
 	width: 100%;
-	/* 设置高度 */
 	height: 500px;
-	/* 上外边距0 左右居中 下外边距为20 */
 	margin: 0 auto 20px auto;
-	/* 超出隐藏不显示 */
 	overflow: hidden;
 }
 
 .wrap {
-	/* 相对定位 */
 	position: relative;
-	/* 设置长度 */
 	width: 100%;
-	/* 设置高度 */
 	height: 100%;
-	/* 居中显示 */
 	margin: auto;
-	/* 超出隐藏不显示 */
 	overflow: hidden;
 }
 
 .warp ul {
-	/* 绝对定位 */
 	position: absolute;
 }
 
 .wrap ul li {
-	/* 设置长度 */
 	width: 100%;
-	/* 设置高度 */
 	height: 100%;
 }
 
 .wrap ul li img {
-	/* 设置图片长度 */
 	width: 100%;
-	/* 设置图片高度 */
 	height: 500px;
-	/* 图片超出大小自动延展 防止压缩 */
 	object-fit: cover;
-	/* 设置3px的圆形弧度 */
 	border-radius: 3px;
 }
-/* 底部下标 */
+
 .wrap ol {
-	/* 绝对定位 */
 	position: absolute;
-	/* 靠.wrap右侧5% */
 	right: 5%;
-	/* 靠.wrap底部20px */
 	bottom: 20px;
 }
 
 .wrap ol li {
-	/* 去除默认属性 */
 	list-style: none;
-	/* 设置高度 */
 	height: 8px;
-	/* 设置长度 */
 	width: 50px;
-	/* 边框 */
 	border: 1px solid #FFF;
-	/* 左侧外边距为12px */
 	margin-left: 12px;
-	/* 左浮动 */
 	float: left;
-	/* 鼠标移上去 */
 	cursor: pointer;
-	/* 字体为0 隐藏文字 */
 	font-size: 0px;
 }
 
 .wrap ol .on {
-	/* 选中的背景 */
 	background: #5c98dd;
 }
-/* 栏目 */
+
 .title{
-	/* 设置长度 */
 	width: 1200px;
-	/* 居中显示 */
 	text-align: center;
-	/* 上下外边距30px 左右居中 */
 	margin: 30px auto;
 }
-/* 上文字 */
+
 .title h3{
 	font-size: 50px;
 	letter-spacing: 4px;
 	margin-bottom: 10px;
 }
-/* 图集 */
+
 .img{
-	/* 相对定位 */
 	position: relative;
-	/* 设置长度 */
 	width: 1200px;
-	/* 上下外边距50px 左右居中 */
 	margin: 30px auto;
 }
 .img ul{
-	/* 弹性布局 */
 	display: flex;
-	/* 换行处理 */
 	flex-wrap: wrap;
-	/* 子元素横向两端对齐 */
 	justify-content: space-between;
 }
 .img ul li {
 	list-style: none;
-	/* 相对定位 */
 	position: relative;
-	/* 设置长度 */
 	width: 360px;
-	/* 设置高度 */
 	height: 180px;
-	/* 下侧外边距为20px */
 	margin-bottom: 20px;
 }
 .img img{
 	display: block;
-	/* 设置长度 */
 	width: 100%;
-	/* 设置高度 */
 	height: 100%;
-	/* 防止图片变形 */
 	object-fit: cover;
 }
 .img p{
-	/* 绝对定位 */
 	position: absolute;
-	/* 父级底部的0位置 */
 	bottom: 0;
-	/* 父级左侧的0位置 */
 	left: 0;
-	/* 设置字体大小 */
 	font-size: 16px;
-	/* 设置长度 */
 	width: 92%;
-	/* 上下左右的内边距为父级的4% */
 	padding: 4%;
-	/* 设置字体颜色 */
 	color: #FFFFFF;
-	/* 设置背景颜色*/
 	background-color: rgba(0,0,0,0.4);
 }
 
 .price{
-	/* 弹性布局 */
 	display: flex;
-	/* 两端对齐 */
 	justify-content: space-between;
-	/* 设置长度 */
 	width: 1400px;
-	/* 下侧20px 居中显示 */
 	margin: 0 auto 20px auto;
 }
 
 .price img{
-	/* 设置长度 */
 	width: 500px;
-	/* 设置高度 */
 	height: 300px;
 	padding: 50px;
 	margin-left: 0;
@@ -252,225 +171,156 @@ a{
 }
 
 .price-text{
-	/* 设置长度 */
 	width: 500px;
-	/* 上下内边距为10 左右内边距为20 */
 	padding: 40px 150px;
 }
 
 .price-text p1{
-	/* 设置字体大小 */
 	font-size: 16px;
-	/* 设置行高 */
 	line-height: 1.2;
 	margin-top: 70px;
 }
 
 .price-text p2{
-	/* 设置字体大小 */
 	font-size: 16px;
-	/* 设置行高 */
 	line-height: 1.8;
 	margin-top: 70px;
 }
 
 
-/* 底部 */
+
 .footer{
-	/* 设置长度 */
 	width: 100%;
-	/* 上下内边距10 左右0 */
 	padding: 10px 0;
-	/* 字体颜色 */
 	color: #FFF;
-	/* 背景颜色 */
 	background: #333;
-	/* 文字居中 */
 	text-align: center;
-	/* 字体大小 */
 	font-size: 14px;
 }
-/* home */
+
 .home{
-	/* 弹性布局 */
 	display: flex;
-	/* 两端对齐 */
 	justify-content: space-between;
-	/* 设置长度 */
 	width: 1200px;
-	/* 下侧20px 居中显示 */
 	margin: 0 auto 20px auto;
 }
 .home img{
-	/* 设置长度 */
 	width: 150px;
-	/* 设置高度 */
 	height: 150px;
 	margin: 20px;
 	padding: 80px;
 }
 .home-text{
-	/* 设置长度 */
 	width: 420px;
-	/* 上下内边距为10 左右内边距为20 */
+
 	padding: 40px 5px;
 }
 .home-text p{
-	/* 设置字体大小 */
+
 	font-size: 18px;
-	/* 设置行高 */
 	line-height: 1.8;
 	margin-top: 70px;
 }
-/* 大图 */
+
 .f-banner img{
-	/* 设置长度 */
 	width: 100%;
-	/* 设置高度 */
 	height: 400px;
-	/* 防止图片拉伸 */
 	object-fit: cover;
 }
-/* 栏目标题二 */
+
 .title-two{
-	/* 设置长度 */
 	width: 1200px;
-	/* 上下外边距30px 左右居中 */
 	margin: auto;
 	margin-top: 80px;
 }
 .title-two h3{
-	/* 左侧内边距为10px */
 	padding-left: 10px;
-	/* 设置字体大小 */
 	font-size: 50px;
-	/* 设置高度 */
 	height: 10px;
-	/* 设置行高 */
 	line-height: 10px;
 	
 }
 
 .title-three{
-	/* 设置长度 */
 	width: 1200px;
-	/* 上下外边距30px 左右居中 */
 	margin: auto;
 	margin-top: 80px;
 }
 
 .title-three h4{
-	/* 左侧内边距为10px */
 	padding-left: 10px;
-	/* 设置字体大小 */
 	font-size: 40px;
-	/* 设置高度 */
 	height: 10px;
-	/* 设置行高 */
 	line-height: 10px;
 	
 	color: #888888;
 }
 
-/* 图 */
+
 .img-three{
-	/* 弹性布局 */
 	display: flex;
-	/* 子元素横向两端对齐 */
 	justify-content: space-between;
-	/* 设置长度 */
 	width: 1200px;
-	/* 横向居中 */
 	margin: auto;
 }
 .img-three img{
-	/* 设置长度 */
 	width: 23%;
-	/* 设置高度 */
 	height: 160px;
-	/* 防止图片变形 */
 	object-fit: cover;
-	/* 下次外边距为30px */
 	margin-bottom: 30px;
 }
-/* 文章列表 */
+
 .text-page {
-	/* 弹性布局 */
 	display: flex;
-	/* 换行显示 */
 	flex-wrap: wrap;
-	/* 两端对齐 */
 	justify-content: space-between;
-	/* 设置长度 */
 	width: 1200px;
-	/* 上外边距30 左右居中 */
 	margin: 30px auto 0 auto;
 }
 
-/* 文章 */
+
 .text-page-list {
-	/* 设置长度 */
 	width: 31%;
 	margin-bottom: 30px;
 }
 
 .text-page .text-page-list .list-img {
-	/* 设置长度 */
 	width: 100%;
 }
 
 .text-page .text-page-list .list-img img {
-	/* 设置长度 */
 	width: 100%;
-	/* 设置行高 */
 	height: 220px;
-	/* 防止图片变形 */
 	object-fit: cover;
 }
 
 .text-page .text-page-list .list-text {
-	/* 设置长度 */
 	width: 100%;
 }
 
 .text-page .text-page-list .list-text h3 {
-	/* 上下外边距为10 左右为0 */
 	margin: 15px 0 10px 0;
-	/* 设置字体颜色 */
 	color: #333;
-	/* 设置字体大小 */
 	font-size: 18px;
 }
-/* 时间 */
+
 .text-page .text-page-list .time{
-	/* flex布局 */
 	display: flex;
-	/* 垂直居中 */
 	align-items: center;
-	/* 字体大小 */
 	font-size: 13px;
-	/* 字体颜色 */
 	color: #888888;
-	/* 下次外边距 */
 	margin-bottom: 10px;
 }
-/* 时间图标 */
+
 .text-page .text-page-list .time img{
-	/* 图片长度 */
 	width: 16px;
-	/* 图片高度 */
 	height: 16px;
-	/* 右侧外边距 */
 	margin-right: 10px;
 }
 .text-page .text-page-list .list-text p {
-	/* 设置行高 */
 	line-height: 1.6;
-	/* 设置字体大小 */
 	font-size: 14px;
-	/* 设置字体颜色 */
 	color: #666;
-	/* 设置行高 */
 	line-height: 24px;
 }
 
