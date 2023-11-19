@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Luyisivdone</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="header">
+			<div class="headerf">
+				<!-- logo -->
+				<img src="image/logo.png" alt="">
+				<!-- manue -->
+				<ul>
+					<li >
+						<a href="home.html">Home</a>
+					</li>
+					<li>
+						<a href="index.html">Price</a>
+					</li>
+					<li class="active">
+						<a href="rw.html">Apointment</a>
+					</li>
+					<li>
+						<a href="jq.html">About us</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="title-two">
+			<!-- 文字 -->
+			<h3>Get in Touch</h3>
+		</div>
+		<div class="title-three">
+			<h4>Our friendly customer service officers are always glad to serve you.</h4>
+		</div>
+
+		<div id="form">
+			<h2>Book Appointment</h2> 
+			<form class="form-grid"> <!-- Start Form -->
+			<fieldset>
+				<legend>Customer Information</legend> 
+				<label for="fName">Name:</label>
+				<input type="text" name="fName" id="fName">
+				<label for="lName">Preferred Appointment Date / Day*</label>
+				<input type="text" name="date" id="date"> 
+		
+				<label for="email">Email:</label>
+				<input type="email" name="email" id="email">
+		
+				<label for="phone">Phone:</label>
+				<input for="tel" name="phone" id="phone">
+			</fieldset>
+			<fieldset>
+				<legend>Treatment Selection (You may choose more than 1 treatment)*</legend> 
+				<label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Invisalign">Invisalign</label>
+				<label for="prtrain"><input type="checkbox" name="interest" id="prtrain" value="Braces">Braces</label>
+				<label for="nutr"><input type="checkbox" name="interest" id="nutr"value="Scaling & Polishing">Scaling & Polishing</label> 
+				<label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Dental Implants">Dental Implants</label>
+				<label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Veneers">Veneers</label>
+				<label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Root Canal Treatment">Root Canal Treatment</label>
+				<label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Wisdom Tooth Removal">Wisdom Tooth Removal</label>
+				<label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Retainers">Retainers</label>
+				<label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Other">Other</label>
+			</fieldset>
+			<fieldset>
+				<legend>Preferred Appointment Timing*</legend>
+				<label for="reference">Choose a time</label> 
+				<select name="reference" id="reference">
+					<option value="9-10">9:00am-10:00am</option> 
+					<option value="10-11">10:00am-11:00am</option> 
+					<option value="11-12">11:00am-12:00pm</option> 
+					<option value="12-13">12:00pm-13:00pm</option> 
+					<option value="13-14">13:00pm-14:00pm</option>
+					<option value="14-15">14:00pm-15:00pm</option>
+					<option value="15-16">15:00pm-16:00pm</option>
+					<option value="16-17">16:00pm-17:00pm</option>
+					<option value="17-18">17:00pm-18:00pm</option>
+				</select> 
+			</fieldset>
+			<input type="submit" id="submit" value="Submit" class="btn">
+			</form>
+		</div>
+		<div class="footer">
+			<!-- 文字 -->
+			<p>Luyisivdone© lzxiyz</p>
+		</div>
+		<script src="js/banner.js"></script>
+	</body>
+</html>
